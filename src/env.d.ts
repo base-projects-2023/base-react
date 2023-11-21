@@ -1,13 +1,11 @@
 /// <reference types="vite/client" />
 
 interface ImportMetaEnv {
-  readonly WEB_VERSION: string;
-  readonly API_URL: string;
-  readonly API_KEY: string;
-  readonly API_SECRET: string;
-  readonly API_WEB_VERSION: string;
-  readonly NODE_ENV: string;
-  // more env variables...
+  readonly BASE_APP_VERSION: string;
+  readonly BASE_API_URL: string;
+  readonly BASE_API_KEY: string;
+  readonly BASE_API_SECRET: string;
+  readonly BASE_NODE_ENV: string;
 }
 
 interface ImportMeta {

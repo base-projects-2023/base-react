@@ -28,6 +28,9 @@
         "./src/*"
       ]
     },
+    "types": [
+      "unplugin-fonts/client"
+    ]
   },
   "include": [
     "src"
